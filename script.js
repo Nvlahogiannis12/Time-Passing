@@ -4,7 +4,7 @@ let countHour = 0;
 let countDay = 0;
 
 window.onclick = function () {
-  let audio = new Audio("audio/Jono- Please Hold.mp3");
+  let audio = new Audio("Jono- Please Hold.mp3");
   audio.loop = true;
   audio.play();
 };
