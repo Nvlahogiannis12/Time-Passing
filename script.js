@@ -3,12 +3,12 @@ let countMinute = 0;
 let countHour = 0;
 let countDay = 0;
 
+let audio = new Audio("Jono- Please Hold.mp3");
+  audio.loop = true;
+  audio.play();
 const timer = setInterval(() => {
   count++;
   document.getElementById("counter").innerText = `Seconds passed: ${count}`;
-  let audio = new Audio("Jono- Please Hold.mp3");
-  audio.loop = true;
-  audio.play();
 
   if (count % 60 === 0) {
     countMinute++;
